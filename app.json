@@ -8,7 +8,9 @@
     "scheme": "castor",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.d4vidcode.castor",
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
@@ -25,7 +27,7 @@
     },
     "plugins": [
       "expo-router",
-       "react-native-google-cast",
+      "react-native-google-cast",
       [
         "expo-splash-screen",
         {
