@@ -25,6 +25,7 @@
     },
     "plugins": [
       "expo-router",
+       "react-native-google-cast",
       [
         "expo-splash-screen",
         {
@@ -37,6 +38,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b3d63818-9fdf-438d-aa9e-a467db485fb4"
+      }
     }
   }
 }
