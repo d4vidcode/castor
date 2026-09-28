@@ -1,0 +1,22 @@
+{
+  "project": "castor",
+  "platform": "ios",
+  "github": {
+    "owner": "d4vidcode",
+    "repo": "castor"
+  },
+  "provider": "github",
+  "codemagic": {},
+  "bitrise": {},
+  "ios": {
+    "path": "ios"
+  },
+  "flutter": {
+    "watch": {}
+  },
+  "reactNative": {
+    "expo": true
+  },
+  "kmp": {},
+  "mobai": {}
+}
