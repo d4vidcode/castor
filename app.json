@@ -8,7 +8,7 @@
     "scheme": "castor",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon",
+      "icon": "./assets/images/icon.png",
       "bundleIdentifier": "com.d4vidcode.castor",
       "supportsTablet": true
     },
