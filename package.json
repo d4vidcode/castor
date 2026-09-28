@@ -29,7 +29,7 @@
     "react-native-worklets": "^0.5.1"
   },
   "devDependencies": {
-    "@types/react": "~19.2.2",
+    "@types/react": "^18.2.79",
     "typescript": "~6.0.3"
   },
   "scripts": {
@@ -40,5 +40,8 @@
     "web": "expo start --web",
     "lint": "expo lint"
   },
-  "private": true
+  "private": true,
+  "resolutions": {
+    "@types/react": "18.2.79"
+  }
 }
